@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @SpringBootApplication
 public class MyWebApplication {
-	
+	@ResponseBody
 	@Controller
 	public class HelloController {
 		
